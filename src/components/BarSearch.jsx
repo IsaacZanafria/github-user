@@ -20,11 +20,11 @@ export default function BarSearch({close, closeBox, openBox}) {
     
     return (
         <nav className=" flex justify-center" >
-            <img className="h-50 object-cover w-full" src="/hero-image-github-profile.jpg" alt="" />
-            <div className=" absolute top-5 w-[85%] max-w-120 h-35">
-                <div className="bg-[#20293A] w-full h-12 rounded-lg flex items-center hover:bg-[#151b26] focus:bg-[#151b26]">
-                    <img className="w-13 size-5" src="/Search.svg" alt="" onClick={closeBox}/>
-                    <input className="w-40 mb-0.5 text-white font-semibold tracking-tight text-sm border-0 outline-0 cursor-pointer " type="text" placeholder="username"  onChange={handleInputChange} onClick={openBox}/>
+            <img className="h-60 object-cover w-full" src="/hero-image-github-profile.jpg" alt="" />
+            <div className=" absolute top-6 w-[85%] max-w-120 h-35">
+                <div className="bg-[#20293A] w-full h-14 rounded-xl flex items-center hover:bg-[#151b26] focus:bg-[#151b26]">
+                    <img className="w-13 size-5.5" src="/Search.svg" alt="" onClick={closeBox}/>
+                    <input className="w-40 mb-0.5 text-white font-semibold tracking-tight border-0 outline-0 cursor-pointer " type="text" placeholder="username"  onChange={handleInputChange} onClick={openBox}/>
                 </div>
                 
                 {loading &&

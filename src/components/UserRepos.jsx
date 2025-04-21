@@ -25,7 +25,7 @@ export default function UserRepos() {
                             <p className="text-[#97A3B6] text-xs lg:text-sm font-semibold w-[90%] mx-auto">{repos.description}</p>
 
                             <div className="w-[90%] mx-auto mt-3 mb-1 flex flex-wrap items-center gap-2 ">
-                                <div className={`w-11 flex items-center justify-between mr-1.5 ${repos.license === null && "hidden"}`}>
+                                <div className={`w-12 flex items-center justify-between mr-1.5 ${repos.license === null && "hidden"}`}>
                                     <img className="size-5" src="/Chield_alt.svg" alt="" />
                                     <p className="text-[#97A3B6] font-semibold text-xs">MIT</p>
                                 </div>
@@ -37,7 +37,7 @@ export default function UserRepos() {
                                     <img className="size-5 mr-1" src="/Star.svg" alt="" />
                                     <p className="text-[#97A3B6] font-semibold text-xs">{repos.stargazers_count}</p>
                                 </div>
-                                <p className="text-[#97A3B6] text-[9.5px] font-semibold w-20">updated {updateDate} days ago</p>
+                                <p className="text-[#97A3B6] text-[9.5px] font-semibold w-22">updated {updateDate} days ago</p>
 
                             </div>
                         </a>
